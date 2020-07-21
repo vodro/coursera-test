@@ -1,4 +1,5 @@
 * {
+    font-family: Consolas, sans-serif;
     box-sizing : border-box;
 }
 
@@ -13,9 +14,10 @@ h1 {
     height: 300px;
     margin : 20px ;
     margin-bottom :  40px;
-    padding: 10px;
+    /* padding: 10px; */
     background-color:aquamarine;
     position: relative;
+    overflow: hidden;
     
 }
 
@@ -23,20 +25,22 @@ h1 {
     border: 1px solid black;
     height: 300px;
     margin : 20px;
-    margin-bottom :  20px;
-    padding: 10px;
+    margin-bottom :  40px;
+    /* padding: 10px; */
     background-color: aquamarine;
     position: relative;
+    overflow : hidden;
     
 }
 .container-3 {
     border: 1px solid black;
     height: 300px;
     margin : 20px;
-    margin-bottom :  20px;
-    padding: 10px;
+    margin-bottom :  40px;
+    /* padding: 10px; */
     background-color: aquamarine;
     position: relative;
+    overflow : hidden;
     
 }
 
@@ -78,15 +82,20 @@ h1 {
 }
 
 .sectionContent {
-    margin-top: 35px;
-    padding: 5px;
+    margin-top: 35px; 
+    /* margin-bottom:10px */
+    padding: 10px;
     text-align: left;
-
+    position: relative;
+    max-height: 250px;
+    overflow : auto;
+    
 }
 
 .credit {
     clear: both;
     text-align: center;
+    
 }
 
 
