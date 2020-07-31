@@ -1,0 +1,59 @@
+body {
+    font-size: 16px;
+    background-color: #951c49;
+    color: #fff;
+}
+
+
+/* header navigation  */
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+}
+
+
+/* unwanted hover effect */
+
+.navbar-header a:hover,
+.navbar-header a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    color: #951c49;
+    text-align: center;
+}
+
+#nav-list li:hover {
+    background: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+}
+
+#company-name {
+    font-size: 2em;
+}
+
+#letter-box {
+    height: 1000px;
+    background-color: yellow;
+    color: black;
+    margin-bottom: 30px;
+}
+
+#header-nav .container {
+    margin: 0;
+}
+
+#collapsable-nav {
+    padding: 0;
+}
+
+#collapsable-nav ul {
+    background-color: chartreuse;
+    margin: 0;
+
+}
